@@ -1,0 +1,29 @@
+{
+  "name": "ai-2",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/soumyabrata1234/ai-2#readme",
+  "bugs": {
+    "url": "https://github.com/soumyabrata1234/ai-2/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyabrata1234/ai-2.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ai.js"
+  },
+  "dependencies": {
+    "@langchain/core": "^1.1.44",
+    "@langchain/google-genai": "^2.1.29",
+    "@langchain/ollama": "^1.2.7",
+    "express": "^5.2.1",
+    "langchain": "^1.3.5",
+    "nodemon": "^3.1.14"
+  }
+}
